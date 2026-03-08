@@ -31,7 +31,7 @@ set /p "WDS=Target Widths (e.g., 800 1080) [Default: 1080]: "
 if "%WDS%"=="" set "WDS=1080"
 
 echo.
-echo Processing images for Anjieda SEO Matrix...
+echo Processing images...
 echo ---------------------------------------------------
 
 for %%f in (*.jpg *.jpeg *.png *.webp *.bmp) do (
@@ -61,4 +61,5 @@ for %%f in (*.jpg *.jpeg *.png *.webp *.bmp) do (
 
 echo ---------------------------------------------------
 echo ALL DONE.
+
 pause
